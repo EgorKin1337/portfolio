@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="container">
+        <div class="header-row">
+          <img
+            src="./images/header-photo.jpg"
+            srcset="./images/header-photo@2x.jpg 2x"
+            alt="фото рабочего стола"
+            class="header-image"
+          />
+          <div class="header-description">
+            <h1 class="header-title">Егор Кин</h1>
+            <p class="header-text">
+              фрилансер, веб-разработчик, создание сайтов
+            </p>
+            <div class="header-buttons">
+              <a href="#porfolio" class="button button-bg">Портфолио</a>
+              <a href="#contacts" class="button button-outline">Контакты</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="main-sections">
+        <div class="container">
+          <h2 class="section-title" id="porfolio">Портфолио</h2>
+          <ul class="projects-list">
+            <li class="projects-list_item">
+              <a href="#">
+                <img
+                  src="./images/project-01.jpg"
+                  srcset="./images/project-01@2x.jpg 2x"
+                  alt="Сайт магазина мебели"
+                  class="link-images-project"
+                />
+              </a>
+              <a href="#" class="link-project">Сайт магазина мебели</a>
+            </li>
+            <li class="projects-list_item">
+              <a href="#">
+                <img
+                  src="./images/project-02.jpg"
+                  srcset="./images/project-02@2x.jpg 2x"
+                  alt="Сайт туристического агентства"
+                  class="link-images-project"
+                />
+              </a>
+              <a href="#" class="link-project">Сайт туристического агентства</a>
+            </li>
+            <li class="projects-list_item">
+              <a href="#">
+                <img
+                  src="./images/project-03.jpg"
+                  srcset="./images/project-03@2x.jpg 2x"
+                  alt="Сайт жилого комплекса"
+                  class="link-images-project"
+                />
+              </a>
+              <a href="#" class="link-project">Сайт жилого комплекса</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="main-sections contacts">
+        <div class="container">
+          <h2 class="section-title" id="contacts">Контакты</h2>
+          <ul class="contacts-list">
+            <li class="contacts-list-item">
+              <article>
+                <a href="https://t.me/kinegor" target="_blank" class="contact-link">
+                  <img src="./images/icons/telegram.svg" alt="Иконка Telegram" />
+                  <p class="contact-description">Написать в Telegram</p>
+                </a>
+              </article>
+            </li>
+
+            <li class="contacts-list-item">
+              <article>
+                <a href="#" target="_blank" class="contact-link">
+                  <img src="./images/icons/whatsapp.svg" alt="Иконка Whatsapp" />
+                  <p class="contact-description">Отправить в WhatsApp</p>
+                </a>
+              </article>
+            </li>
+
+            <li class="contacts-list-item">
+              <article>
+                <a href="#" target="_blank" class="contact-link">
+                  <img src="./images/icons/vk.svg" alt="Иконка Вконтакте" />
+                  <p class="contact-description">Связаться Вконтакте</p>
+                </a>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <p>© Егор Кин HTML верстальщик, создание сайтов Москва</p>
+        <p>
+          <a href="https://webcademy.ru/" target="_blank"
+            >💻 Макет взят с ВебКадеми</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
